@@ -32,7 +32,7 @@ Docker is an easy way to run OWASP ZAP:
     
     $ docker logs -f owasp-zap
 
-You can verify it's working by using the OWASP ZAP Application UI.
+You can verify it's working by using the OWASP ZAP Application UI, but you will need to not use `-daemon` mode to do that.
 
 Then run this script:
 
@@ -42,4 +42,7 @@ Then run this script:
     $ ./owasp_zap_api.py
 
 It will run through and scan the various URLs, then produce a report when it is done.
+
+You can find more about customizing OWASP ZAP in the documentation.
+
 
