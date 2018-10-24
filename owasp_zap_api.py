@@ -18,7 +18,7 @@ import time
 
 
 # Variables
-apikey = '************'
+apikey = '1234567890'
 api_target = 'https://API_HOSTNAME/'
 admin_target = 'https://ADMIN_HOSTNAME/'
 api_user = os.environ['API_USER']
